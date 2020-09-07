@@ -16,14 +16,14 @@ def numeroPar(numero):
     else:
         par = False
     if par:
-        print("Es par")
+        print("El numeroes par")
     else:
-        print("Es impar")
+        print("El impar")
     return par
 
 def pala(palabra):
-    primer_caracter = palabra[0]
-    segundo_caracter = palabra[len(palabra)-1]
-    print(f"El primer caracter es {primer_caracter}")
-    print(f"El último caracter es {segundo_caracter}")
-    return primer_caracter, segundo_caracter
+    primerCaracter = palabra[0]
+    ultimoCaracter = palabra[len(palabra)-1]
+    print(f"El primer caracter es {primerCaracter}")
+    print(f"El último caracter es {ultimoCaracter}")
+    return primerCaracter, ultimoCaracter
