@@ -1,10 +1,10 @@
 
-def edad(edad_actual, año_actual):
-    if edad_actual > 0:
-        if año_actual > 0:
-            años = 2070 - año_actual 
-            edad_futura = edad_actual + años
-            return edad_futura
+def edad(edadActual, añoActual):
+    if edadActual > 0:
+        if añoActual > 0:
+            años = 2070 - añoActual 
+            edadNueva = edadActual + años
+            return edadNueva
         else:
             print("El año ingresado es negativo")
     else:
