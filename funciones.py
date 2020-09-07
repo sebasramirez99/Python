@@ -2,7 +2,7 @@
 def edad(edadActual, añoActual):
     if edadActual > 0:
         if añoActual > 0:
-            años = 2070 - añoActual 
+            años = 2025 - añoActual 
             edadNueva = edadActual + años
             return edadNueva
         else:
